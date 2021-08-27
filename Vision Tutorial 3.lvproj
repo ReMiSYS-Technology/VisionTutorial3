@@ -13,8 +13,77 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Topics" Type="Folder" URL="../Topics">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Topics" Type="Folder">
+			<Item Name="1_Intro Vision Basic" Type="Folder">
+				<Item Name="1. Vision Acquisition.vi" Type="VI" URL="../Topics/1_Intro Vision Basic/1. Vision Acquisition.vi"/>
+				<Item Name="2. Cast Image.vi" Type="VI" URL="../Topics/1_Intro Vision Basic/2. Cast Image.vi"/>
+				<Item Name="3. Copy Image Symmetry And Merge.vi" Type="VI" URL="../Topics/1_Intro Vision Basic/3. Copy Image Symmetry And Merge.vi"/>
+				<Item Name="4. Regions of Interest.vi" Type="VI" URL="../Topics/1_Intro Vision Basic/4. Regions of Interest.vi"/>
+				<Item Name="5. Cut Image from ROI.vi" Type="VI" URL="../Topics/1_Intro Vision Basic/5. Cut Image from ROI.vi"/>
+			</Item>
+			<Item Name="2_Image Processing and Analysis" Type="Folder">
+				<Item Name="1. Histogram, Color Space and Threshold.vi" Type="VI" URL="../Topics/2_Image Processing and Analysis/1. Histogram, Color Space and Threshold.vi"/>
+				<Item Name="2. Color Classification.vi" Type="VI" URL="../Topics/2_Image Processing and Analysis/2. Color Classification.vi"/>
+			</Item>
+			<Item Name="3_Machine Vision" Type="Folder">
+				<Item Name="directionTmp" Type="Folder">
+					<Item Name="1.png" Type="Document" URL="../Topics/3_Machine Vision/directionTmp/1.png"/>
+					<Item Name="2.png" Type="Document" URL="../Topics/3_Machine Vision/directionTmp/2.png"/>
+				</Item>
+				<Item Name="1. Color Class and Pattern Match.vi" Type="VI" URL="../Topics/3_Machine Vision/1. Color Class and Pattern Match.vi"/>
+				<Item Name="2. OCR.vi" Type="VI" URL="../Topics/3_Machine Vision/2. OCR.vi"/>
+				<Item Name="3. Pattern Matching.vi" Type="VI" URL="../Topics/3_Machine Vision/3. Pattern Matching.vi"/>
+				<Item Name="OCR.abc" Type="Document" URL="../Topics/3_Machine Vision/OCR.abc"/>
+			</Item>
+			<Item Name="Images" Type="Folder">
+				<Item Name="DIR" Type="Folder">
+					<Item Name="1.png" Type="Document" URL="../Topics/Images/DIR/1.png"/>
+					<Item Name="2.png" Type="Document" URL="../Topics/Images/DIR/2.png"/>
+				</Item>
+				<Item Name="Letters" Type="Folder">
+					<Item Name="1.png" Type="Document" URL="../Topics/Images/Letters/1.png"/>
+					<Item Name="2.png" Type="Document" URL="../Topics/Images/Letters/2.png"/>
+					<Item Name="3.png" Type="Document" URL="../Topics/Images/Letters/3.png"/>
+					<Item Name="4.png" Type="Document" URL="../Topics/Images/Letters/4.png"/>
+					<Item Name="5.png" Type="Document" URL="../Topics/Images/Letters/5.png"/>
+					<Item Name="6.png" Type="Document" URL="../Topics/Images/Letters/6.png"/>
+					<Item Name="7.png" Type="Document" URL="../Topics/Images/Letters/7.png"/>
+					<Item Name="8.png" Type="Document" URL="../Topics/Images/Letters/8.png"/>
+					<Item Name="9.png" Type="Document" URL="../Topics/Images/Letters/9.png"/>
+					<Item Name="10.png" Type="Document" URL="../Topics/Images/Letters/10.png"/>
+					<Item Name="11.png" Type="Document" URL="../Topics/Images/Letters/11.png"/>
+					<Item Name="12.png" Type="Document" URL="../Topics/Images/Letters/12.png"/>
+					<Item Name="13.png" Type="Document" URL="../Topics/Images/Letters/13.png"/>
+					<Item Name="14.png" Type="Document" URL="../Topics/Images/Letters/14.png"/>
+					<Item Name="15.png" Type="Document" URL="../Topics/Images/Letters/15.png"/>
+					<Item Name="16.png" Type="Document" URL="../Topics/Images/Letters/16.png"/>
+				</Item>
+				<Item Name="Nut" Type="Folder">
+					<Item Name="1.png" Type="Document" URL="../Topics/Images/Nut/1.png"/>
+					<Item Name="2.png" Type="Document" URL="../Topics/Images/Nut/2.png"/>
+					<Item Name="3.png" Type="Document" URL="../Topics/Images/Nut/3.png"/>
+					<Item Name="4.png" Type="Document" URL="../Topics/Images/Nut/4.png"/>
+					<Item Name="5.png" Type="Document" URL="../Topics/Images/Nut/5.png"/>
+					<Item Name="6.png" Type="Document" URL="../Topics/Images/Nut/6.png"/>
+					<Item Name="7.png" Type="Document" URL="../Topics/Images/Nut/7.png"/>
+					<Item Name="8.png" Type="Document" URL="../Topics/Images/Nut/8.png"/>
+				</Item>
+				<Item Name="Screw" Type="Folder">
+					<Item Name="1.png" Type="Document" URL="../Topics/Images/Screw/1.png"/>
+					<Item Name="2.png" Type="Document" URL="../Topics/Images/Screw/2.png"/>
+					<Item Name="3.png" Type="Document" URL="../Topics/Images/Screw/3.png"/>
+					<Item Name="4.png" Type="Document" URL="../Topics/Images/Screw/4.png"/>
+					<Item Name="5.png" Type="Document" URL="../Topics/Images/Screw/5.png"/>
+					<Item Name="6.png" Type="Document" URL="../Topics/Images/Screw/6.png"/>
+					<Item Name="7.png" Type="Document" URL="../Topics/Images/Screw/7.png"/>
+					<Item Name="8.png" Type="Document" URL="../Topics/Images/Screw/8.png"/>
+				</Item>
+			</Item>
+			<Item Name="SubVI" Type="Folder">
+				<Item Name="1chHistogramRange (SubVI).vi" Type="VI" URL="../Topics/SubVI/1chHistogramRange (SubVI).vi"/>
+				<Item Name="HistogramRange (SubVI).vi" Type="VI" URL="../Topics/SubVI/HistogramRange (SubVI).vi"/>
+			</Item>
+			<Item Name="TypeDef" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
